@@ -88,7 +88,7 @@ public class WeatherService(
     }
     
 
-    private string GetDataKey(Location location)
+    private static string GetDataKey(Location location)
     {
         return $"{location.Country}:{location.City}";
     }
