@@ -1,0 +1,7 @@
+﻿services:
+  climatedatafetcher:
+    image: climatedatafetcher
+    build:
+      context: .
+      dockerfile: ClimateDataFetcher/Dockerfile
+
